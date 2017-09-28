@@ -1516,21 +1516,33 @@
 //Disable JTAG pins so they can be used for the Extrudrboard
 #define DISABLE_JTAG       true
 
-#define X_STEP_PIN          0
-#define X_DIR_PIN           1
-#define X_ENABLE_PIN       39
+//#define X_STEP_PIN         0
+//#define X_DIR_PIN          1
+//#define X_ENABLE_PIN       39
 
-#define Y_STEP_PIN          2
-#define Y_DIR_PIN           3
-#define Y_ENABLE_PIN       38
+//#define Y_STEP_PIN         2
+//#define Y_DIR_PIN          3
+//#define Y_ENABLE_PIN       38
 
-#define Z_STEP_PIN          4
-#define Z_DIR_PIN           5
+#define Z_STEP_PIN         4
+#define Z_DIR_PIN		   5
 #define Z_ENABLE_PIN       23
 
-#define E0_STEP_PIN         6
-#define E0_DIR_PIN          7
-#define E0_ENABLE_PIN      19
+#define X_STEP_PIN         28
+#define X_DIR_PIN          29
+#define X_ENABLE_PIN       37
+
+#define Y_STEP_PIN         30
+#define Y_DIR_PIN          31
+#define Y_ENABLE_PIN       14
+
+//#define E0_STEP_PIN         6
+//#define E0_DIR_PIN          7
+//#define E0_ENABLE_PIN      19
+
+#define E0_STEP_PIN        32
+#define E0_DIR_PIN         33
+#define E0_ENABLE_PIN      42
 
 // E1 STEP, DIR differ in Printrboard versions, below:
 #define E1_ENABLE_PIN      44
@@ -1540,8 +1552,8 @@
 #define E2_ENABLE_PIN      45
 
 #define HEATER_0_PIN       21  // Extruder
-#define HEATER_1_PIN       46
-#define HEATER_2_PIN       47
+//#define HEATER_1_PIN       46
+//#define HEATER_2_PIN       47
 #define HEATER_BED_PIN     20  // Bed
 
 // If soft or fast PWM is off then use Teensyduino pin numbering, Marlin
